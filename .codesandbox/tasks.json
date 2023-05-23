@@ -1,0 +1,49 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "eject": {
+      "name": "eject",
+      "command": "yarn eject",
+      "runAtStart": false
+    },
+    "npx json-server --port 3001 --watch db.json": {
+      "name": "npx json-server --port 3001 --watch db.json",
+      "command": "npx json-server --port 3001 --watch db.json"
+    },
+    "npm install axios": {
+      "name": "npm install axios",
+      "command": "npm install axios"
+    },
+    "npm install json-server --save-dev": {
+      "name": "npm install json-server --save-dev",
+      "command": "npm install json-server --save-dev"
+    },
+    "npm run server": {
+      "name": "npm run server",
+      "command": "npm run server"
+    }
+  }
+}
