@@ -1,5 +1,5 @@
 import axios from "axios"
-const baseUrl = "https://chjgut-3001.csb.app/api/notes";
+const baseUrl = "https://nk7vsm-3001.csb.app/api/notes";
 
 const getAll = () => {
     const request = axios.get(baseUrl);
